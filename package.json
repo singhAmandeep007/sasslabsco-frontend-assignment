@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": ".",
   "author": {
     "name": "Amandeep Singh",
     "email": "amandeep.singh.fsd@gmail.com"
@@ -15,7 +16,7 @@
     "test": "vitest run",
     "deploy": "run-s deploy:build deploy:gh-pages",
     "deploy:build": "npm run build",
-    "deploy:gh-pages": "gh-pages -d build -- --message \"Updates\""
+    "deploy:gh-pages": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.473.0",
