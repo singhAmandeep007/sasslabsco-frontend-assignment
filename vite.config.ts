@@ -28,4 +28,5 @@ export default defineConfig({
     // READ-MORE: https://vitest.dev/config/#mockreset
     mockReset: true,
   },
+  base: "/funding-table-app",
 });
