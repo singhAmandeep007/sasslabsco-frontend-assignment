@@ -1,0 +1,43 @@
+.paginationContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.paginationInfo {
+  color: #666;
+  font-size: 0.875rem;
+}
+
+.paginationControls {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.paginationButton {
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  min-width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.paginationButton:hover:not(:disabled) {
+  background: #fff;
+  color: #000;
+}
+
+.paginationButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.paginationButton.active {
+  background: #0066cc;
+}

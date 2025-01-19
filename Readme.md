@@ -49,3 +49,10 @@ Use the web API (link : https://raw.githubusercontent.com/saaslabsco/frontend-as
 
 1. Result on platforms like codesandbox, replit are not accepted. 
 1. Private unaccessible links will lead to rejection.
+
+
+## How to run the project ?
+
+1. Clone the project
+2. Run `npm install`
+3. Run `npm run dev`

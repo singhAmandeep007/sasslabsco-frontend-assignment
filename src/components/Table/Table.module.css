@@ -1,0 +1,46 @@
+.tableContainer {
+  width: 100%;
+  margin: 1rem 0;
+  border-collapse: collapse;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.tableContainer caption {
+  padding: 0.5rem;
+  font-style: italic;
+  text-align: left;
+  color: #666;
+  font-size: 0.875rem;
+  caption-side: bottom;
+  text-align: center;
+}
+
+.tableContainer th {
+  font-weight: 600;
+  text-align: left;
+  padding: 1rem;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.tableContainer td {
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  text-align: left;
+}
+
+.tableContainer tbody tr:nth-child(even) {
+  background-color: #66666610;
+}
+
+.tableContainer tbody tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+.tableContainer tbody tr:hover {
+  background-color: #0066cccc;
+}
+
+.tableContainer tfoot {
+  font-weight: 600;
+  background-color: #f8f9fa;
+}
