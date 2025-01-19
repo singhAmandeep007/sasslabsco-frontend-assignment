@@ -56,3 +56,7 @@ Use the web API (link : https://raw.githubusercontent.com/saaslabsco/frontend-as
 1. Clone the project
 2. Run `npm install`
 3. Run `npm run dev`
+
+## How to run test ?
+
+1. Run `npm run test`
